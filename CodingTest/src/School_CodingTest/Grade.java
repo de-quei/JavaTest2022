@@ -1,5 +1,6 @@
 package School_CodingTest;
-
+/*학생 수를 입력받아
+ * 성적을 처리하시오.*/
 import java.util.Scanner;
 public class Grade {
 
