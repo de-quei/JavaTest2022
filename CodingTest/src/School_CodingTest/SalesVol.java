@@ -44,7 +44,7 @@ public class SalesVol {
 			}
 			System.out.printf("   %d", y_sum[i]);
 			System.out.printf("   %d", sum);
-			System.out.println();
+			System.out.println("");
 		}
 		
 	}
