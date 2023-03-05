@@ -43,5 +43,4 @@ public class Rectangle {
 		System.out.println("사각형의 둘레 : " + t1.getRound());
 		System.out.println("사각형의 넓이 : " + t1.getArea());
 	}
-
 }
