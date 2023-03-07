@@ -18,5 +18,4 @@ public class Goorm_Area {
 		
 		System.out.println(width * height);
 	}
-
 }
