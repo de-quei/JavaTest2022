@@ -7,12 +7,17 @@ package Programmers;
  * 놀이기구를 count번 타게 되면 
  * 현재 자신이 가지고 있는 금액에서 얼마가 모자라는지를 return 하세요.
  * 단, 금액이 부족하지 않으면 0을 return 하세요.*/
+import java.util.Scanner;
 public class insufficient_amount {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("보유중인 금액은 얼마입니까? : ");
+		int money = sc.nextInt();
+		
 		int price = 700;     // 놀이기구의 가격
-		int money = 4000;    // 가지고 있는 금액
 		int cnt = 3;         // 놀이기구를 탄 횟수이자 배수
 		int sum = 0;         // 누적 금액
 		
@@ -20,8 +25,11 @@ public class insufficient_amount {
 			sum += price*(i+1);
 		}
 		
+		System.out.println(" - 탑승 횟수 : " + cnt);
+		System.out.println(" - 놀이기구의 가격 : " + price);
+		System.out.println(" - 이용 금액 : " + sum);
 		if(sum - money > 0) {
-			System.out.println(sum - money);
+			System.out.println(" - 모자란 금액 : " + (sum - money));
 		}
 		else {
 			System.out.println("0");
