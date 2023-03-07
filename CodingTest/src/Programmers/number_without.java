@@ -15,6 +15,7 @@ public class number_without {
 			n_sum += numbers[i];
 		}
 		
+		// 45 (0~9까지의 합)
 		System.out.println("없는 수의 합 : " + (45 - n_sum));
 	}
 
