@@ -26,7 +26,5 @@ public class insufficient_amount {
 		else {
 			System.out.println("0");
 		}
-		
 	}
-
 }
